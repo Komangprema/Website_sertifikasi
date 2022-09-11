@@ -13,7 +13,7 @@ if(!isset($_SESSION['username'])){
         <title>Home</title>
         <style>
             body {
-                background-image: url('img/Background 2.jpg');
+                background-image: url('img/Background.jpg');
             }
         </style>
          <!-- Bootstrap -->
