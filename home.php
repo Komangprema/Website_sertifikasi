@@ -13,7 +13,7 @@ if(!isset($_SESSION['username'])){
         <title>Home</title>
         <style>
             body {
-                background-image: url('img/Background.jpg');
+                background-image: url('img/Background.Home-admin.jpg');
             }
         </style>
          <!-- Bootstrap -->
@@ -28,22 +28,22 @@ if(!isset($_SESSION['username'])){
                 <div class="card-body">
                     <div class="mb-3">
                         <label class="form-label">Mahasiswa</label> <br>
-                        <a class="btn btn-secondary" href="mahasiswa.php" role="button">Input Mahasiswa</a>
-                        <a class="btn btn-secondary" href="cari_mahasiswa.php" role="button">Cari Mahasiswa</a>
-                        <a class="btn btn-secondary" href="cari_mahasiswa.php" role="button">Daftar UKM</a>
+                        <a class="btn btn-outline-secondary" href="mahasiswa.php" role="button">Input Mahasiswa</a>
+                        <a class="btn btn-outline-secondary" href="cari_mahasiswa.php" role="button">Cari Mahasiswa</a>
+                        <a class="btn btn-outline-secondary" href="daftar_ukm.php" role="button">Daftar UKM</a>
                     </div>
                     <div class="mb-3">
                         <label class="form-label">Dosen</label> <br>
-                        <a class="btn btn-secondary" href="dosen.php" role="button">Data Dosen</a>
+                        <a class="btn btn-outline-secondary" href="dosen.php" role="button">Data Dosen</a>
                     </div>
                     <div class="mb-3">
                         <label class="form-label">Jurusan</label> <br>
-                        <a class="btn btn-secondary" href="jurusan.php" role="button">Data Jurusan</a>
+                        <a class="btn btn-outline-secondary" href="jurusan.php" role="button">Data Jurusan</a>
                     </div>
                     <div class="mb-3 pb-3">
                         <label class="form-label">UKM</label> <br>
-                        <a class="btn btn-secondary" href="ukm.php" role="button">Input UKM</a>
-                        <a class="btn btn-secondary" href="cari_peserta.php" role="button">Peserta UKM</a>
+                        <a class="btn btn-outline-secondary" href="ukm.php" role="button">Input UKM</a>
+                        <a class="btn btn-outline-secondary" href="cari_peserta.php" role="button">Peserta UKM</a>
                     </div>
                     <a class="btn btn-danger" href="logout.php" role="button">Keluar</a>
                 </div>

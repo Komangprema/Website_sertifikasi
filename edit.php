@@ -11,7 +11,7 @@ $data = $cmhs->edit($nim)
         <title>Update Mahasiswa</title>
     </head>
 
-    <body style="background-color: #E9DAC1">
+    <body style="background-color: #7FBCD2">
         <form action="proses_update.php" method="POST" enctype="multipart/form-data">
             <fieldset>
                 <legend>Form update biodata Mahasiswa</legend>

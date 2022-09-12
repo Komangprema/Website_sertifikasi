@@ -3,7 +3,7 @@
         <title>Halaman Login</title>
         <style>
             body {
-                background-image: url('img/Background.jpg');
+                background-image: url('img/Background.admin.jpg');
             }
         </style>
          <!-- Bootstrap -->
@@ -27,7 +27,7 @@
                         <label for="password" class="form-label">Password</label>
                         <input type="password" class="form-control" name="password">
                     </div>
-                    <button type="submit" name="submit" class="btn btn-primary">Login</button> <br>
+                    <center><button type="submit" name="submit" class="btn btn-primary">Login</button></center> <br>
                     <a href="login.php">Login User</a>
                     </form>
                 </div>

@@ -11,7 +11,7 @@ $data = $cdsn->edit($nidn)
         <title>Update Dosen</title>
     </head>
 
-    <body style="background-color: #E9DAC1">
+    <body style="background-color: #7FBCD2">
         <form action="proses_update_dosen.php" method="POST">
             <fieldset>
                 <legend>Form update biodata Dosen</legend>

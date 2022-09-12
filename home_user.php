@@ -12,7 +12,7 @@ if(!isset($_SESSION['username'])){
         <title>Home</title>
         <style>
             body {
-                background-image: url('img/Background 2.jpg');
+                background-image: url('img/Background.Home-user.png');
             }
         </style>
          <!-- Bootstrap -->
@@ -26,19 +26,19 @@ if(!isset($_SESSION['username'])){
                 <div class="card-body">
                     <div class="mb-3">
                         <label class="form-label">Mahasiswa</label> <br>
-                        <a class="btn btn-secondary" href="cari_mahasiswa_user.php" role="button">Cari Mahasiswa</a>
+                        <a class="btn btn-outline-secondary btn-lg" href="cari_mahasiswa_user.php" role="button">Cari Mahasiswa</a>
                     </div>
                     <div class="mb-3">
                         <label class="form-label">Dosen</label> <br>
-                        <a class="btn btn-secondary" href="dosen_user.php" role="button">Data Dosen</a>
+                        <a class="btn btn-outline-secondary btn-lg" href="dosen_user.php" role="button">Data Dosen</a>
                     </div>
                     <div class="mb-3">
                         <label class="form-label">Jurusan</label> <br>
-                        <a class="btn btn-secondary" href="jurusan_user.php" role="button">Data Jurusan</a>
+                        <a class="btn btn-outline-secondary btn-lg" href="jurusan_user.php" role="button">Data Jurusan</a>
                     </div>
                     <div class="mb-3 pb-3">
                         <label class="form-label">UKM</label> <br>
-                        <a class="btn btn-secondary" href="cari_peserta_user.php" role="button">Peserta UKM</a>
+                        <a class="btn btn-outline-secondary btn-lg" href="cari_peserta_user.php" role="button">Peserta UKM</a>
                     </div>
                     <a class="btn btn-danger" href="logout_user.php" role="button">Keluar</a>
                 </div>
