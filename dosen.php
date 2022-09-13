@@ -33,7 +33,7 @@
                     <tr>
                         <td>NIDN</td>
                         <td>:</td>
-                        <td><input type="text" name="nidn"></td>
+                        <td><input type="number" name="nidn"></td>
                     </tr>
                     <tr>
                         <td>Nama</td>
@@ -61,7 +61,7 @@
                     <tr>
                         <td>Alamat</td>
                         <td>:</td>
-                        <td><input type="text" name="alamat"></td>
+                        <td><input type="text" name="alamat"  style="width: 400px;":></td>
                     </tr>
                     <tr>
                         <td>No_Hp</td>

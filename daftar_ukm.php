@@ -39,7 +39,7 @@
                     <tr>
                         <td>NIM (Nomor Induk Mahasiswa)</td>
                         <td>:</td>
-                        <td><input type="text" name="nim"></td>
+                        <td><input type="" name="nim"></td>
                     </tr>
                     <tr>
                         <td>Nama Mahasiswa</td>
@@ -79,7 +79,7 @@
                     <tr>
                         <td>Email</td>
                         <td>:</td>
-                        <td><input type="email" name="email"></td>
+                        <td><input type="email" name="email" style="width: 400px;"></td>
                     </tr>
                     <tr>
                         <td>UKM</td>

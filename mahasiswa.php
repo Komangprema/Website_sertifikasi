@@ -46,10 +46,11 @@ if(!isset($_SESSION['username'])){
                 <legend>Form input biodata Mahasiswa</legend>
                 <b>Lengkapi biodata dengan benar</b>
                 <table class="table">
+                
                     <tr>
                         <td>NIM (Nomor Induk Mahasiswa)</td>
                         <td>:</td>
-                        <td><input type="text" name="nim"></td>
+                        <td><input type="number" size="9" name="nim"  ></td>
                     </tr>
                     <tr>
                         <td>Nama Mahasiswa</td>
@@ -70,10 +71,11 @@ if(!isset($_SESSION['username'])){
                                 echo "<option value=$data[kode_jurusan]> $data[nama_jurusan]</option>";
                               }
                               ?>
-                            </select>
+                         </select>
                         </td>
                     </tr>
                     <tr>
+                    
                         <td>Jenis kelamin</td>
                         <td>:</td>
                         <td>
@@ -82,9 +84,10 @@ if(!isset($_SESSION['username'])){
                         </td>
                     </tr>
                     <tr>
+            
                         <td>Alamat</td>
                         <td>:</td>
-                        <td><input type="text" name="alamat"></td>
+                        <td> <input  type="text" name="alamat" style="width: 400px;" ></td>
                     </tr>
                     <tr>
                         <td>No. HP</td>
@@ -99,7 +102,7 @@ if(!isset($_SESSION['username'])){
                     <tr>
                         <td>Email</td>
                         <td>:</td>
-                        <td><input type="email" name="email"></td>
+                        <td><input type="email" name="email" style="width: 400px;" ></td>
                     </tr>
                     <tr>
                         <td>Dosen Wali</td>
@@ -111,10 +114,12 @@ if(!isset($_SESSION['username'])){
                         <td></td>
                         <td><input type="submit" value="Simpan"> <input type="button" value="cancel"></td>
                     </tr>
+                    
                 </table>
+                            
             </fieldset>
         </form>
-       
+        
 
 
         <!-- Option 1: Bootstrap Bundle with Popper -->

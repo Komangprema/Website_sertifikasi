@@ -28,9 +28,11 @@ if ($_FILES['foto']['size'] > 500000) {
 
 //mengecek jenis file
 if ($file_type != 'jpg' && $file_type != 'png' && $file_type != 'jpeg') {
-    echo "Maaf, Type file tidak di izinkan";
+    echo "Maaf, file foto anda salah";
     $fileUpOK = 0;
 }
+
+
 
 if($fileUpOK == 1){
     if(move_uploaded_file($_FILES['foto']['tmp_name'], $target_file)){

@@ -69,7 +69,7 @@
             ?>
             <tr>
                 <td><?php echo $no++ ?></td>
-                <td><?php echo $data['nim'] ?></td>
+                <td><?php echo $data['nim'] ?> </td>
                 <td><?php echo $data['nama_mhs'] ?></td>
                 <td><?php echo $data['nama_jurusan'] ?></td>
                 <td><?php echo $data['gender'] ?></td>
